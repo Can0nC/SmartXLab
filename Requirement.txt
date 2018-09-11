@@ -1,3 +1,10 @@
 The scope for initialize (pilot) phase including build a basic IoT-based Smart Home system, which allow below features:
-1. An agent running on Rasberry Board (for this phase can be simulated using a PC with Ubuntu) which periodly (by default every 1 minute) read temperature status from a sensor (for this phase can be simulated using a text file) and send data to the server which running on Cloud.
-2. Home owner can go to Webserver address and see the latest temperature status of his house.
+1. An agent running on Rasberry Board (for this phase can be simulated using a PC with Ubuntu) which periodly (by default every 1 minute) 
+   - Read ON/OFF status from a lighting sensor (for this phase can be simulated using a text file)
+   - Send data to the server which running on Cloud.
+2. A Webserver on Cloud and allow home owner do below activities:
+   - See the latest ON/OFF status of his house.
+   - Control device status by switching ON/OFF on Web UI
+
+Contraint:
+1. Using Python
