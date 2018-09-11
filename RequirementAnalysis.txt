@@ -1,0 +1,10 @@
+Most Significant Quality Attribute:
+• Reliability
+• Reusability
+
+Architecture Patterns:
+• MVC: Use for Webserver
+• Broker (Publish-Subscribe): Use for communication Agent & Server
+	· Allow asynchronous communication bue to unstable Internet connection
+• Layered: Use in Agent code
+	· Make sure business (core logic) layer is not depend on detail layer
